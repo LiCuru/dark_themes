@@ -1,0 +1,335 @@
+/* ==UserStyle==
+@name           www.digitalocean.com - 04/08/2023 23:41:28
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("www.digitalocean.com") {
+    
+    /*background color*/
+    body, nav.gSGeJY, nav.cSwsjk {
+        background-color:#0b0b33;
+    }
+    
+    /* top info */
+    .jtzsUN{
+        background-color:black;
+    }
+    
+    /* the navbar */
+    button.lmtGxX, button.hvlCiv{
+        color:skyblue;
+    }
+    
+    button.lmtGxX:hover{
+        background-color:midnightblue;
+        color:powderblue;
+    }
+    
+    /* the navbar */
+    /* 'Log in' */
+    .lUfdp{
+        color:skyblue;
+    }
+    
+    /* the navbar */
+    /*Sign Up button */
+    .faaZku{
+        background-color:midnightblue;
+        color:powderblue;
+    }
+    
+    /* the navbar */
+    /* 'Search Community' */
+    .gavkGr{
+        background-color:black;
+        border-color:cornflowerblue;
+        color:cornflowerblue;
+    }
+    
+    /*hover hero on navbar*/
+    div.jOCxwZ, div.yeIaE, div.bwKEnF{
+       background: black;
+    }
+        
+    div.ContainerStyles__StyledContainer-sc-1vejnbq-0 p{
+        color:skyblue;
+    }
+    
+    div.ContainerStyles__StyledContainer-sc-1vejnbq-0 a{
+        color:royalblue;
+    }
+    
+    div.ContainerStyles__StyledContainer-sc-1vejnbq-0 a:hover{
+        color:lightblue;
+    }
+    
+    .hNJdji:hover{
+        background-color:black;
+        border-style:solid;
+        border-width: 1.2px;
+        border-color:aqua;
+        border-color:darkcyan;
+    }
+    
+    .hNJdji span:first-of-type{
+        color:darkcyan;
+    }
+    
+    .hNJdji span:last-of-type{
+        color:cornflowerblue;
+    }
+    
+    .blddHC{
+        background-color:black;
+        border-top-color:black;
+    }
+    
+    /* left side tab */
+    /* 'CONTENTS' */
+    .bZxRnn{
+        color:lightskyblue;
+    }
+    
+    /* left side tab */
+    /* options */
+    .dkxFVZ{
+        color:darkcyan;
+    }
+    
+    .dkxFVZ:hover{
+        color:lightblue;
+    }
+    
+    .dkxFVZ:active{
+        color:lightskyblue;
+    }
+    
+    .faTdvV{
+        color:lightskyblue;
+    }
+    
+    .faTdvV:hover{
+        color:ghostwhite;
+    }
+    
+    /* left side tab */
+    /* scrollbar */
+    .cBlame{
+        scrollbar-color:skyblue;
+    }
+    
+    /* // Tutorial  // */
+    .jZQPWS{
+        color:lightblue;
+    }
+    
+    .bKjNvr{
+        color:lightblue;
+    }
+    
+    .loCxRe{
+        color:darkcyan;
+    }
+    /* tags */
+    .hsDNcC{
+        background: black;
+    }
+    
+    div.ContainerStyles__StyledContainer-sc-1vejnbq-0 a{
+        color:dodgerblue;
+    }
+    
+    /* warning div after cover img and before article */
+    .kxoNTl{
+        background-color: transparent;
+        border-color:darkcyan;
+        border-style:solid;
+        border-width: 1.2px;
+    }
+    
+    .lnIAJu{
+        color:lightseagreen;
+    }
+    
+    .nrqxW{
+        color:lightskyblue;
+    }
+    
+    
+     /* warning div after cover img and before article */
+    /* dropdown menu */
+    .css-romc89-control{
+        background-color: transparent;
+        color:lightskyblue;
+        border-color:darkcyan;
+        border-style:solid;
+        border-width: 1.2px;
+        font-size:15.5px;
+        font-weight:bold;
+    }
+    
+    .css-romc89-control:hover{
+        color: lightseagreen;
+    }
+    
+    .Markdown_markdown__wHGCe pre.environment-local{
+        background: black;
+    }
+    
+    .Markdown_markdown__wHGCe pre.environment-local code{
+        color: red;
+    }
+    
+    .Markdown_markdown__wHGCe pre.environment-local.prefixed code ol li::before{
+        color:lime;
+    }
+    
+    .Markdown_markdown__wHGCe pre[class*="environment-"] > code .token.function{
+        color:violet;
+    }
+    
+    /* light themed code snippet - turned to dark theme */
+    /* Copy button */
+    .Markdown_markdown__wHGCe .code-toolbar > .toolbar > .toolbar-item > button{
+        background: green;
+        color: ghostwhite;
+    }
+    
+    
+    /* note warning */
+    .Markdown_markdown__wHGCe .callout.info{
+        background-color: darkslategrey;
+    }
+    
+    
+    /* typing mentions within <p> tag */
+    .Markdown_markdown__wHGCe code{
+        background-color: darkslategrey;
+        color: lime;
+    }
+    
+    /**/
+    .gmvvkI p strong{
+        color: lime;
+    }
+    
+    /* article end line */
+    .fhbbJW {
+        border-color:lime;
+    }
+    
+    /* 'About the authors' */
+    .jQjcAa{
+        background-color:darkslategrey;
+    }
+    
+    .jGibah{
+        color:ghostwhite;
+    }
+    
+    .esFaHc{
+        background: black;
+    }
+    
+    /* 'Still looking for an answer?'' */
+    .bsZzJD{
+        background: green;
+    }
+    
+    /* 'Still looking for an answer?'' */
+    /* button */
+    .cKtsWH{
+        border-color:ghostwhite;
+    }
+    
+    /* 'Was this helpful?'' */
+    /* button */
+    .eajotA{
+        border-color:ghostwhite;
+    }
+    
+    /* 'Comments' */
+    .ButtonStyles__StyledButton-sc-4h9jsk-0, .dAAioC, .TutorialTabs___StyledButton-sc-6fpjf1-0, .cLpwcu, .darkblue{
+        color:ghostwhite !important;
+    }
+    
+    /* end line */
+    .hWeJt{
+        border-color:lime;
+    }
+    
+    svg.TutorialTabs___StyledSvg-sc-6fpjf1-1, .iupekr{
+        background-color: lime !important;
+    }
+    
+    .TutorialTabs___StyledLine-sc-6fpjf1-2, .UVzer, .selected{
+        stroke:lime !important;
+    }
+    
+    /* 'Leave a comment' */
+    .kZeBHQ{
+        color:ghostwhite;
+    }
+    
+    /* 'Leave a comment' input div */
+    .dWQUwR{
+        background-color: darkslategrey;
+        border-color:yellow;
+        
+    }
+    
+    /* 'Leave a comment' input div */
+    /* top edit buttons*/
+    .gcpKDS{
+        color:ghostwhite;
+    }
+    
+    .gcpKDS:hover{
+        color:red;
+    }
+    
+    /* 'Leave a comment' input div */
+    /* top edit buttons*/
+    .geyCH{
+        border-bottom-color: yellow;
+    }
+    
+    .gUWRqi:read-only{
+        background: black
+    }
+    
+    .MarkdownStyles__StyledSlateLeaf-sc-1ece7am-9 span, .hNrXJG span {
+        color:azure !important;
+    }
+    
+    /* right side section */
+    .TutorialTemplateStyles__StyledSidebarItem-sc-1gdp4d7-37, .ebjJPs{
+        display:none;
+    }
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
