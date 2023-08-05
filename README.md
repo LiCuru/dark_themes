@@ -8,4 +8,4 @@ The Stylus plugin website: https://add0n.com/stylus.html
 Current websites that have dark theme css file in this dump:
 
 - https://docs.python.org - Python Docs (needs refactoring)
-- https://realpython.com/ - Real Python (incomplete)
+- https://realpython.com/ - Real Python (incomplete - needs refactoring)
