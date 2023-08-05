@@ -1,0 +1,248 @@
+/* ==UserStyle==
+@name           docs.python.org - 03/08/2023 02:29:14
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("docs.python.org") {
+    body{
+    color:darkseagreen;
+    background-color: #24252a;
+    border:0px;
+    margin: 0px;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-family:Courier New;
+    }
+
+
+    div.sphinxsidebarwrapper{
+        background-color: #24252a
+    }
+
+    div.sphinxsidebarwrapper h3, div.sphinxsidebarwrapper h3 a, div.sphinxsidebarwrapper h4, div.sphinxsidebarwrapper h4 a{
+        color:darkseagreen;
+    }
+
+    div.sphinxsidebarwrapper a{
+        color:lightskyblue
+    }
+
+    div#sidebarbutton{
+        background-color:darkseagreen;
+        color:darkseagreen;
+    }
+
+    div.body h1, div.body h2, div.body h3, div.body h4, div.body h5, div.body h6{
+        background-color:#24252a;
+        color: darkseagreen;
+    }
+
+    code, div.admonition p code, div.note p code{
+        color:springgreen;
+        background-color:black;
+    }
+
+
+    div.body a{
+        color:aqua
+    }
+
+
+    div.body a:visited{
+        color:plum
+    }
+
+    div.related{
+        margin-top:0;
+        border-style:none;
+        background-color: #24252a;
+        color: darkseagreen;
+    }
+
+    div.related a{
+        color:darkseagreen;
+        font-size:15px;
+    }
+
+    select#language_select, select#version_select, form.inline-search input{
+        background-color: #090707;
+        color:ghostwhite;
+        font-weight:bold;
+        padding:6px;
+        border-radius:7px;
+        border-style: none;
+        border-width: 2.25px;
+        border-color: ghostwhite;
+    }
+    
+    option{
+        background-color: black;
+        color:#4ad2fd;
+    }
+
+    div.language_switcher_placeholder{
+        color: darkseagreen;
+        background-color: #24252a
+    }
+
+    div.version_switcher_placeholder{
+        color: darkseagreen;
+        background-color: #24252a
+    }
+
+
+    div.body{
+        color: darkseagreen;
+        background-color: #24252a;
+        border-style:none;
+    }
+
+    div.body h1{
+        color: darkseagreen;
+        background-color: #24252a;
+        font-family:Courier New;
+    }
+
+
+    div.document{
+        color: darkseagreen;
+        background-color: #24252a
+    }
+
+    div.footer{
+        color: darkseagreen;
+    }
+
+    div.footer a {
+        color:deepskyblue;
+    }
+
+    div.footer a:visited {
+        color:plum;
+    }
+
+    table.docutils th, table.docutils td{
+        background-color:midnightblue;
+    }
+
+    thead {
+        background-color:#24252a;
+    }
+
+    table.indextable tr.cap{
+        background-color:darkslategray;
+        color: darkseagreen;
+        font-size:larger
+    }
+
+    div.admonition, div.body, div.note{
+        border-radius:16px !important;
+        border-style:none;
+    }
+
+    div.note{
+        background-color: slateblue;
+    }
+
+    div.seealso{
+        background-color:darkslateblue;
+        border-style:none;
+        border-radius:16px;
+    }
+
+    div.body pre{
+        border-style: none;
+        border-radius: 16px;
+        background-color: black;
+    }
+
+    div.warning{
+        background-color:indianred;
+        border-style:none;
+        border-radius:16px;
+    }
+
+    div.body p, div.body dd, div.body li, div.body blockquote, div.body blockquote div{
+        background-color:transparent;
+    }
+
+    div.body pre{
+        color:floralwhite;
+    }
+
+    span.kn, span.k, span.nb, span.kc {
+        /*color:chartreuse;*/
+        color:yellowgreen !important;
+    }
+
+    span.nn, span.nf, span.gt, span.nc, span.fm{
+        color:aqua !important;
+    }
+
+    span.p, span.o, span.mi, span.n, span.mf, span.mo, span.mb, span.mh{
+        color: floralwhite !important;
+    }
+
+    span.sd{
+        color:salmon !important;
+    }
+
+    span.c1{
+        color:plum !important;
+    }
+
+    span.vm{
+        color:cornflowerblue !important;
+    }
+
+    span.s1, span.s2, span.c, span.gr{
+        color:orangered !important;
+    }
+
+    span.gp, span.go{
+        color:lightskyblue !important;
+    }
+
+    .highlight .kn, .highlight .k, .highlight .nb, .highlight .kc {
+        /*color:chartreuse;*/
+        color:yellowgreen !important;
+    }
+
+    .highlight .nn, .highlight .nf, .hightlight .gt, .highlight .nc, .highlight.fm{
+        color:aqua !important;
+    }
+
+    .highlight .p, .highlight .o, .highlight .mi, .highlight .n, .highlight .mf, .highlight .mo, .highlight .mb, .highlight .mh{
+        color: floralwhite !important;
+    }
+
+    .highlight .sd{
+        color:salmon !important;
+    }
+
+    .highlight .c1{
+        color:plum !important;
+    }
+
+    .highlight .vm{
+        color:cornflowerblue !important;
+    }
+
+    .highlight .s1, .highlight .s2, .highlight .c, .highlight .gr{
+        color:orangered !important;
+    }
+
+    .highlight .gp, .highlight .go{
+        color:lightskyblue !important;
+    }
+    .sig.c .k, .sig.c .kt, .sig.cpp .k, .sig.cpp .kt{
+        color: yellow !important;
+    }
+
+    dt:target, span.highlighted{
+        background-color:orangered !important;
+    }
+}
