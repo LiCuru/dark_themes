@@ -5,7 +5,7 @@ These are just a few .css files with dark themes I made for a few websites. They
 
 The Stylus plugin website: https://add0n.com/stylus.html
 
-Current websites that have dark theme css file in this dump:
+Current websites:
 
 - https://docs.python.org - Python Docs (needs refactoring)
 - https://realpython.com/ - Real Python (incomplete - needs refactoring)
