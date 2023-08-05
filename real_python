@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    color: ghostwhite;
+}
+
+.bg-light{
+    background-color: #11112d !important;
+}
+
+.highlight.python::before{
+    background-color:#012131;
+}
+
+.highlight pre{
+    background-color: #021822;
+}
+
+
+span.linenos{
+    color:#9d9d9d;
+}
+
+span.k{
+    color: #734b9d;
+    color:mediumslateblue !important;
+}
+
+span.vm{
+    color:ghostwhite;
+}
+
+span.o{
+    #color:deeppink;
+    color:fuchsia !important;
+    #color:hotpink;
+    #color:magenta;
+    #color:orchid;
+    #color:violet;
+}
+
+span.nf, span.p, span.n{
+    #color:lawngreen;
+    color:palegreen !important;
+}
+
+
+span.s2, highlight.s2, span.se, .highlight.se{
+    color:khaki !important;
+}
+
+span.sa, span.si, .highlight.sa, .highlight.si{
+    color:yellow !important;
+}
+
+span.nb{
+    color:cyan !important;
+}
+
+span.sd, span.c1{
+    color:teal !important;
+}
+
+span.mi, highlight.mi{
+    color:crimson !important;
+}
