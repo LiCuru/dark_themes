@@ -161,82 +161,158 @@
     
      /* warning div after cover img and before article */
     /* dropdown menu */
-    .css-romc89-control{
-        background-color: transparent;
+    /* .nonclicked-class, .clicked-class */
+    .css-romc89-control, .css-j5g2rf-control{
+        background-color: black;
         color:lightskyblue;
         border-color:darkcyan;
         border-style:solid;
         border-width: 1.2px;
         font-size:15.5px;
         font-weight:bold;
+        box-shadow:none;
     }
     
-    .css-romc89-control:hover{
+    /* dropdown menu */
+    /* .nonclicked-class */
+    .css-romc89-control:hover, .css-j5g2rf-control:hover{
         color: lightseagreen;
+    }
+    
+    /* dropdown menu */
+    /* .clicked-class */
+    .css-j5g2rf-control:hover{
+        
+    }
+    /*dropdown menu - options*/
+    /* .the_options_container div */
+    .css-qr46ko div{
+        border-style:none !important;
+    }
+    
+    .react-select_menu, .css-zqyc92-menu, .css-wmbnk-option, .css-hkyg9z-option{
+        background-color: black;
+        color:lightskyblue;
+        border-color: transparent;
+    }
+    
+    .react-select_menu:hover, .css-wmbnk-option:hover, .css-hkyg9z-option:hover, .react-select__option:hover, .css-1u4lm3x-option:hover{
+        background-color: darkcyan;
+        
+        color: black;
+        border-color: transparent;
+    }
+    
+    .react-select-2-listbox{
+        display:block;
     }
     
     .Markdown_markdown__wHGCe pre.environment-local{
         background: black;
     }
     
-    .Markdown_markdown__wHGCe pre.environment-local code{
-        color: red;
-    }
-    
     .Markdown_markdown__wHGCe pre.environment-local.prefixed code ol li::before{
-        color:lime;
+        color:lightcyan;
     }
     
     .Markdown_markdown__wHGCe pre[class*="environment-"] > code .token.function{
-        color:violet;
+        color:cyan;
+    }
+    
+    .Markdown_markdown__wHGCe pre.environment-local code{
+        color:lightcyan;
+    }
+    
+    .Markdown_markdown__wHGCe pre[class*="environment-"] mark{
+        background:darkcyan;
     }
     
     /* light themed code snippet - turned to dark theme */
     /* Copy button */
     .Markdown_markdown__wHGCe .code-toolbar > .toolbar > .toolbar-item > button{
-        background: green;
-        color: ghostwhite;
+        background:deepskyblue;
+        color: midnightblue;
     }
     
     
     /* note warning */
-    .Markdown_markdown__wHGCe .callout.info{
-        background-color: darkslategrey;
+    .Markdown_markdown__wHGCe .callout.info, .Markdown_markdown__wHGCe .callout.info p{
+        background-color:#012727;
+        color:lavender;
     }
     
+    .Markdown_markdown__wHGCe .callout.info a{
+        border-bottom-style:none;
+        color:aqua;
+    }
     
     /* typing mentions within <p> tag */
     .Markdown_markdown__wHGCe code{
-        background-color: darkslategrey;
-        color: lime;
+        background-color:navy;
+        color:mediumspringgreen;
     }
     
     /**/
     .gmvvkI p strong{
-        color: lime;
+        color:aqua;
+        color:cornflowerblue;
+        color:aquamarine;
+        #color:cyan;
+        #color:darkcyan;
+        #color:darkturquoise;
+        #color:deepskyblue;
+        #color:dodgerblue;
+        #color:lightblue;
+        #color:lightseagreen;
+        #color:lightskyblue;
+        #color:mediumaquamarine;
+        #color:mediumturquoise;
+        #color:paleturquoise;
+        #color:powderblue;
+        #color:royalblue;
+        #color:skyblue;
+        #color:turquoise;
+    }
+    
+    .ddpKqx, .fhbbJW{
+        border-color:lightskyblue;
     }
     
     /* article end line */
     .fhbbJW {
-        border-color:lime;
+        border-color:lightskyblue;
     }
     
     /* 'About the authors' */
     .jQjcAa{
-        background-color:darkslategrey;
+        background-color:#00001c;
+        border-style:solid;
+        border-width:1.3px;
+        border-color:#378d70;
+        color:ghostwhite;
     }
     
+    /* 'About the authors' */
+    /* Title */
     .jGibah{
-        color:ghostwhite;
+        color:#68f9c8;
     }
     
     .esFaHc{
         background: black;
     }
     
+    div.ContainerStyles__StyledContainer-sc-1vejnbq-0 a{
+        color:darkturquoise;
+    }
+    
     /* 'Still looking for an answer?'' */
     .bsZzJD{
-        background: green;
+        background: transparent;
+        #border-color:darkcyan;
+        #border-style:solid;
+        border-width:1.2px;
+        box-shadow:none;
     }
     
     /* 'Still looking for an answer?'' */
