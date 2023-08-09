@@ -59,7 +59,7 @@
     }
     
     div.ContainerStyles__StyledContainer-sc-1vejnbq-0 a{
-        color:royalblue;
+        color:skyblue;
     }
     
     div.ContainerStyles__StyledContainer-sc-1vejnbq-0 a:hover{
@@ -138,10 +138,6 @@
         background: black;
     }
     
-    div.ContainerStyles__StyledContainer-sc-1vejnbq-0 a{
-        color:dodgerblue;
-    }
-    
     /* warning div after cover img and before article */
     .kxoNTl{
         background-color: transparent;
@@ -159,7 +155,7 @@
     }
     
     
-     /* warning div after cover img and before article */
+    /* warning div after cover img and before article */
     /* dropdown menu */
     /* .nonclicked-class, .clicked-class */
     .css-romc89-control, .css-j5g2rf-control{
@@ -174,16 +170,12 @@
     }
     
     /* dropdown menu */
-    /* .nonclicked-class */
+    /* .nonclicked-class and .clicked-class */
     .css-romc89-control:hover, .css-j5g2rf-control:hover{
         color: lightseagreen;
     }
     
-    /* dropdown menu */
-    /* .clicked-class */
-    .css-j5g2rf-control:hover{
-        
-    }
+
     /*dropdown menu - options*/
     /* .the_options_container div */
     .css-qr46ko div{
@@ -286,91 +278,180 @@
     /* 'About the authors' */
     .jQjcAa{
         background-color:#00001c;
-        border-style:solid;
+        border-style:none;
         border-width:1.3px;
         border-color:#378d70;
         color:ghostwhite;
+        
+        box-shadow: 0 0 .2rem #00001c,
+            0 0 .2rem #00001c,
+            0 0 2rem #00001c,
+            0 0 0.8rem #00001c,
+            0 0 2.8rem #00001c,
+            inset 0 0 1.3rem #00001c;
     }
     
     /* 'About the authors' */
     /* Title */
-    .jGibah{
-        color:#68f9c8;
+    .dAUTqy .jGibah{
+        color:#7bd6b7;
+        font-weight:normal;
+        text-shadow:
+            0 0 1.75px #7bd6b7,
+            0 0 2.25px #7bd6b7,
+            0 0 7.75px #0fa,
+            0 0 10.5px #0fa,
+            0 0 21px #0fa;
+    }
+    
+    .lkfiWD a{
+        color:lightskyblue !important;
+        text-shadow:   
+            0 0 1.75px lightskyblue,
+            0 0 2.25px lightskyblue,
+            0 0 7.75px deepskyblue,
+            0 0 10.5px deepskyblue,
+            0 0 21px deepskyblue;
+        /*
+        text-shadow:   
+            0 0 1.75px #e29af4,
+            0 0 2.25px #d871f2,
+            0 0 7.75px #d871f2,
+            0 0 10.5px #d871f2,
+            0 0 21px #d871f2;
+        */
+    }
+    
+    .lkfiWD p{
+        color:lightskyblue !important;
+        text-shadow:   
+            0 0 1.75px lightskyblue,
+            0 0 2.25px lightskyblue,
+            0 0 7.75px deepskyblue,
+            0 0 10.5px deepskyblue,
+            0 0 21px deepskyblue;
     }
     
     .esFaHc{
         background: black;
     }
     
-    div.ContainerStyles__StyledContainer-sc-1vejnbq-0 a{
-        color:darkturquoise;
-    }
-    
     /* 'Still looking for an answer?'' */
     .bsZzJD{
         background: transparent;
-        #border-color:darkcyan;
-        #border-style:solid;
-        border-width:1.2px;
-        box-shadow:none;
+    }
+    
+    /* 'Still looking for an answer?'' */
+    /* text */
+    .fducWu{
+        color: darkcyan;
     }
     
     /* 'Still looking for an answer?'' */
     /* button */
     .cKtsWH{
-        border-color:ghostwhite;
+        background-color: black;
+        color:lightskyblue;
+        border-color:darkcyan;
+        border-style:solid;
+        border-width: 1.2px;
+        font-size:15.5px;
+        font-weight:bold;
+        box-shadow:none;
+    }
+    
+    .cKtsWH:hover{
+        color: darkcyan !important;
+    }
+    
+    /* dividing line */ 
+    .cicpeb{
+        border-style: none;
+    }
+    
+    .ftHvul{
+        background:transparent;
     }
     
     /* 'Was this helpful?'' */
+    /* text */
+    .iWYLlo{
+        color:darkcyan;
+    }
+    
     /* button */
     .eajotA{
-        border-color:ghostwhite;
+        border-color:darkcyan;
+    }
+    
+    /* social media icons */
+    
+    .LazyLink___StyledA2-sc-yi29t7-1 svg {
+        fill:darkcyan !important;
+        stroke:darkcyan !important;
+    }
+    
+    .eajotA{
+        background-color: black;
+        color:lightskyblue;
+        border-color:darkcyan;
+        border-style:solid;
+        border-width: 1.2px;
+        font-size:15.5px;
+        font-weight:bold;
+        box-shadow:none;
+    }
+    
+    .eajotA:hover{
+        color: darkcyan !important;
+        background-color: black;
+        border-color:darkcyan;
     }
     
     /* 'Comments' */
     .ButtonStyles__StyledButton-sc-4h9jsk-0, .dAAioC, .TutorialTabs___StyledButton-sc-6fpjf1-0, .cLpwcu, .darkblue{
-        color:ghostwhite !important;
+        color:darkcyan !important;
     }
     
     /* end line */
     .hWeJt{
-        border-color:lime;
+        border-color:darkcyan;
     }
     
     svg.TutorialTabs___StyledSvg-sc-6fpjf1-1, .iupekr{
-        background-color: lime !important;
+        background-color: darkcyan !important;
     }
     
     .TutorialTabs___StyledLine-sc-6fpjf1-2, .UVzer, .selected{
-        stroke:lime !important;
+        stroke:darkcyan !important;
     }
     
     /* 'Leave a comment' */
     .kZeBHQ{
-        color:ghostwhite;
+        color:#7bd6b7;
     }
     
     /* 'Leave a comment' input div */
     .dWQUwR{
-        background-color: darkslategrey;
-        border-color:yellow;
+        background-color: black;
+        border-style:none;
         
     }
     
     /* 'Leave a comment' input div */
     /* top edit buttons*/
     .gcpKDS{
-        color:ghostwhite;
+        color:#7bd6b7;
     }
     
     .gcpKDS:hover{
-        color:red;
+        color:#7bd6b7;
     }
     
     /* 'Leave a comment' input div */
     /* top edit buttons*/
     .geyCH{
-        border-bottom-color: yellow;
+        border-bottom-color: #7bd6b7;
     }
     
     .gUWRqi:read-only{
@@ -378,7 +459,7 @@
     }
     
     .MarkdownStyles__StyledSlateLeaf-sc-1ece7am-9 span, .hNrXJG span {
-        color:azure !important;
+        color:#7bd6b7 !important;
     }
     
     /* right side section */
