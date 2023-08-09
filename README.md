@@ -10,3 +10,13 @@ Current websites:
 - https://docs.python.org - Python Docs (needs refactoring)
 - https://realpython.com/ - Real Python (incomplete - needs refactoring)
 - https://www.digitalocean.com/ - Digital Ocean Tutorials - dark theme for the content of Digital Ocean Tutorials.
+
+
+
+----------------
+
+About the file:
+
+- css_colors_selection 
+
+This file contains a few color selections in css to help create color palettes.
