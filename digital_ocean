@@ -139,6 +139,27 @@
         background: black;
     }
     
+    .css-1hq57w3-control, .css-y8nmu9-control{
+        background-color: black;
+        color:lightskyblue;
+        border-color:darkcyan;
+        border-style:solid;
+        border-width: 1.2px;
+        font-size:15.5px;
+        font-weight:bold;
+        box-shadow:none;
+    }
+    
+    .css-y8nmu9-control:hover{
+        background-color: darkcyan;
+        color: black;
+        border-color: transparent;
+    }
+    
+    .kOZLDb .react-select__single-value::before {
+        color:lightskyblue;
+    }
+    
     /* warning div after cover img and before article */
     .kxoNTl{
         background-color: transparent;
@@ -191,7 +212,6 @@
     
     .react-select_menu:hover, .css-wmbnk-option:hover, .css-hkyg9z-option:hover, .react-select__option:hover, .css-1u4lm3x-option:hover{
         background-color: darkcyan;
-        
         color: black;
         border-color: transparent;
     }
