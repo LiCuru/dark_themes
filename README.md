@@ -9,4 +9,4 @@ Current websites:
 
 - https://docs.python.org - Python Docs (needs refactoring)
 - https://realpython.com/ - Real Python (incomplete - needs refactoring)
-- https://www.digitalocean.com/ - Digital Ocean Tutorials (incomplete)
+- https://www.digitalocean.com/ - Digital Ocean Tutorials - dark theme for the content of Digital Ocean Tutorials.
