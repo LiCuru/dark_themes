@@ -59,7 +59,8 @@
     }
     
     div.ContainerStyles__StyledContainer-sc-1vejnbq-0 a{
-        color:skyblue;
+        color:aqua;
+        border-bottom-color:aqua;
     }
     
     div.ContainerStyles__StyledContainer-sc-1vejnbq-0 a:hover{
@@ -443,6 +444,42 @@
     
     .MarkdownStyles__StyledSlateLeaf-sc-1ece7am-9 span, .hNrXJG span {
         color:#7bd6b7 !important;
+    }
+    
+    /* each comment div */
+    .dEmDUv{
+        background-color:black;
+        border-color:#7bd6b7;
+        border-width:0.1px;
+        box-shadow:   
+            0 0 1.75px #7bd6b7,
+            0 0 2.25px #7bd6b7,
+            0 0 7.75px #0fa,
+            0 0 10.5px #0fa,
+            0 0 21px #0fa;
+    }
+    
+    /* reply button on each comment div */
+    .kKxibt{
+        color:cyan;
+    }
+    
+    /* 'Load More Comments' button */
+    .zfEFi{
+        background-color: black;
+        color:lightskyblue;
+        border-color:darkcyan;
+        border-style:solid;
+        border-width: 1.2px;
+        font-size:15.5px;
+        font-weight:bold;
+        box-shadow:none;
+    }
+    
+    .zfEFi:active, .zfEFi:hover{
+        background-color: darkcyan;
+        color: black;
+        border-color: transparent;
     }
     
     /* right side section */
