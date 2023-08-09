@@ -228,8 +228,8 @@
     
     
     /* note warning */
-    .Markdown_markdown__wHGCe .callout.info, .Markdown_markdown__wHGCe .callout.info p{
-        background-color:#012727;
+    .Markdown_markdown__wHGCe .callout.info, .Markdown_markdown__wHGCe .callout.info p, .callout{
+        background-color:#012727 !important;
         color:lavender;
     }
     
@@ -246,24 +246,7 @@
     
     /**/
     .gmvvkI p strong{
-        color:aqua;
-        color:cornflowerblue;
         color:aquamarine;
-        #color:cyan;
-        #color:darkcyan;
-        #color:darkturquoise;
-        #color:deepskyblue;
-        #color:dodgerblue;
-        #color:lightblue;
-        #color:lightseagreen;
-        #color:lightskyblue;
-        #color:mediumaquamarine;
-        #color:mediumturquoise;
-        #color:paleturquoise;
-        #color:powderblue;
-        #color:royalblue;
-        #color:skyblue;
-        #color:turquoise;
     }
     
     .ddpKqx, .fhbbJW{
