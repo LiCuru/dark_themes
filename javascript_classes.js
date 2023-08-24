@@ -1,4 +1,4 @@
-Anotações sobre a ordem de processamento das classes do javascript.:
+/*Anotações sobre a ordem de processamento das classes do javascript.:
 
 Fonte:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#evaluation_order
@@ -119,7 +119,7 @@ vai ver que a instância não tem acesso a esse método da classe.
 Quem tem acesso é a classe mesmo
 
 Ou seja, se digitar no console:
-
+*/
 
 class Color {
 	//  o código da classe Color do link da página do Mozilla
@@ -154,7 +154,7 @@ colorWithStatic_object.__proto__.constructor.static_method()
 
 
 
-
+/*
 
 ----------------------------------------------
 
