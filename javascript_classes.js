@@ -162,7 +162,7 @@ colorWithStatic_object.__proto__.constructor.static_method()
 ----------------------------------------------
 
 
-
+/*
  
  
  5 - A classe é inicializada com o Object.__proto__ definido pelo extends e pelo construtor da classe em si. 
