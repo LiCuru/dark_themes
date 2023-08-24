@@ -124,7 +124,7 @@ Ou seja, se digitar no console:
 class Color {
 	//  o código da classe Color do link da página do Mozilla
 }
->>> undefined
+//>>> undefined
 
 class ColorWithStatic extends Color {
     constructor(r, g, b, a ){
@@ -135,22 +135,22 @@ class ColorWithStatic extends Color {
         console.log('static method was called');
     }
 }
->>> undefined
+//>>> undefined
 
 colorWithStatic_object = new ColorWithStatic(0,0,0,0)
->>> Object { ... }
+//>>> Object { ... }
 
 colorWithStatic_object.static_method()
->>> Uncaught TypeError: colorWithStatic_object.teste is not a function
+//>>> Uncaught TypeError: colorWithStatic_object.teste is not a function
 
 ColorWithStatic.static_method()
->>> static method was called
+//>>> static method was called
 
 ColorWithStatic_object.__proto__.constructor
->>> class ColorWithStatic { constructor(r, g, b, a) }
+//>>> class ColorWithStatic { constructor(r, g, b, a) }
 
 colorWithStatic_object.__proto__.constructor.static_method()
->>> static method was called
+//>>> static method was called
 
 
 
