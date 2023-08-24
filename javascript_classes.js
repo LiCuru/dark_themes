@@ -154,14 +154,12 @@ colorWithStatic_object.__proto__.constructor.static_method()
 
 
 
-/*
+
 */
 
 
 
 ----------------------------------------------
-
-
 /*
  
  
@@ -212,7 +210,7 @@ Quando a classe é instanciada, o inicializador do instance field é processado 
  
  
  
- 
+ */
  
  
  
