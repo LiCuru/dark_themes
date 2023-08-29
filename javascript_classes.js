@@ -4,7 +4,38 @@ Fonte:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes#evaluation_order
 
 Entender a ordem, e de que forma acontece o processamento das classes em javascript é importante para muita coisas.
-O 'this', por exemplo: a palavra-chave, a keyword, 'this' referencia objetos diferentes dependendo de onde é declarada dentro de uma classe.
+O 'this', por exemplo: a palavra-chave, a keyword, 'this' referencia objetos diferentes dependendo de onde é declarada dentro de uma classe. O 'this' vai se referir ao objeto que está fora do objeto onde ele é declarado. Você encontra esse objeto fora das chaves onde está o this.
+
+
+
+this_object = { value: 1, retornar_this(){return this.value} } 
+>>> Object { value: 1, retornar_this: retornar_this() }
+
+
+
+this_object.retornar_this() 
+>>> 1
+
+
+
+this_object é um objeto com um "método" e uma "propriedade"
+
+O 'this.value' busca o 'value' no escopo fora das {chaves} onde 'this' estava.
+retornar_this() é uma função, o que quer dizer que é um objeto também, e tem um protótipo próprio:
+
+
+
+this_object.retornar_this.__proto__ 
+>>> function ()
+
+
+
+this_object.__proto__
+>>> Object { … }
+
+
+
+
 
 Para entender classes em javascript é necessário entender o funcionamento de protótipos. Pois a implementação da programação orientada a objeto no javascript foi implementada através da existência desses protótipos.
 ------------------------------------
@@ -13,18 +44,18 @@ Uma revisão rápida sobre classes, instâncias e protótipos.
 
 As classes são objetos. Só que elas criam outros objetos. Esse objetos que as classes criam são chamados de instâncias. Quando um objeto é criado através de uma classe, se diz que ela foi instanciada. Você chama a classe para criar a instância (que também é um objeto)
 
-Imagine as classes como uma forma de bolo. O bolo é a instância. E a massa é (ou são) o(s) parâmetro(s). É só isso.
+Imagine as classes como uma forma de bolo. O bolo é a instância. E a massa é (ou são) o(s) parâmetro(s). O parâmetro é o que você passa entre parênteses na função.  É só isso. 
 
 class Bolo{
 
-    constructor(sabor, qtdFarinha){
+    constructor(sabor, qtdFarinhag){
         this.sabor = sabor;
-        this.qtdFarinha = qtdFarinha;
+        this.qtdFarinhag = qtdFarinhag;
   }
 
     
     avisarQueTemBolo(){
-        let qtdDePessoas = Math.round(this.qtdFarinha/100);
+        let qtdDePessoas = Math.round(this.qtdFarinhag/100);
 
         let aviso = 'tem bolo de ' + this.sabor +  ' para ' + qtdDePessoas + ' pessoas';
 
@@ -57,7 +88,8 @@ boloDeChocolate.__proto__
 ​	> <prototype>: Object { … }
 
 
-
+boloDeChocolate.__proto__ == Object.getPrototypeOf(boloDeChocolate) 
+>>> true
 
 ----> repare que o objeto boloDeChocolate não tem o método .avisarQueTemBolo(). Quem tem o método .avisarQueTemBolo() é o boloDeChocolate.__proto__ , o protótipo· Mas você pode chamar direto do objeto boloDeChocolate.avisarQueTemBolo().
 --------------------------------------------
